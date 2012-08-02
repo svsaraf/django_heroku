@@ -7,7 +7,9 @@ https://devcenter.heroku.com/articles/django
 There are some small modifications made to this project, which are listed below:
 
 1) Project is default named "project". You can change this, but I wouldn't recommend it.
+
 2) No apps installed whatsoever.
+
 3) Uses gunicorn and a simple procfile to get started. Extendable easily, see Mike Tigas' work here:
 
 http://v3.mike.tig.as/blog/2012/02/13/deploying-django-on-heroku/
@@ -39,4 +41,5 @@ To push to heroku, do the following:
 If you have any questions, send me a note. It's easier if you understand what's going on, so if you're curious, read more in the git, django, heroku, and gunicorn documentation.
 
 Best,
+
 sanjay
